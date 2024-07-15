@@ -8,9 +8,9 @@
     <nav>
         <form action="/set_language" method="post">
             <select name="language" onchange="this.form.submit()">
-                <option value="en" {% if session.language == 'en' %}selected{% endif %}>English</option>
-                <option value="tr" {% if session.language == 'tr' %}selected{% endif %}>Türkçe</option>
-                <option value="es" {% if session.language == 'es' %}selected{% endif %}>Español</option>
+                <option value="en" {% if session.language == 'en' %}selected{% endif %}>🇬🇧 English</option>
+                <option value="tr" {% if session.language == 'tr' %}selected{% endif %}>🇹🇷 Türkçe</option>
+                <option value="es" {% if session.language == 'es' %}selected{% endif %}>🇪🇸 Español</option>
                 <!-- Diğer diller burada eklenebilir -->
             </select>
         </form>
